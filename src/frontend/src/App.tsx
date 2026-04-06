@@ -279,7 +279,7 @@ export default function App() {
               className="flex items-center gap-2 text-brand-green font-bold text-xl font-heading no-underline"
             >
               <LeafIcon />
-              <span>NutriSuccess</span>
+              <span>Nutrisystem</span>
             </a>
 
             <nav className="hidden md:flex items-center gap-6">
@@ -394,8 +394,8 @@ export default function App() {
                 </div>
 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-heading leading-tight tracking-tight text-[#111]">
-                  TRANSFORM YOUR BODY WITH{" "}
-                  <span className="text-brand-green">NUTRISYSTEM!</span>
+                  LOSE WEIGHT THE EASY WAY WITH{" "}
+                  <span className="text-brand-green">NUTRISYSTEM</span>
                 </h1>
 
                 <p className="text-lg text-[#555] leading-relaxed max-w-lg">
@@ -438,8 +438,8 @@ export default function App() {
                 <div className="relative w-full max-w-md lg:max-w-full">
                   <div className="absolute inset-0 bg-gradient-to-br from-[#EAF5EA] to-[#c8e6c9] rounded-3xl" />
                   <img
-                    src="/assets/generated/hero-meal-woman.dim_800x900.jpg"
-                    alt="Happy woman with healthy Nutrisystem meals"
+                    src="/assets/generated/hero-nutrisystem-meals.dim_800x900.jpg"
+                    alt="Nutrisystem healthy meal delivery program"
                     className="relative w-full h-[420px] lg:h-[520px] object-cover object-center rounded-3xl shadow-card"
                     loading="eager"
                   />
@@ -826,7 +826,7 @@ export default function App() {
             <div className="flex items-center gap-2">
               <LeafIconWhite />
               <span className="text-white font-bold text-xl font-heading">
-                NutriSuccess
+                Nutrisystem
               </span>
             </div>
             <nav className="flex flex-wrap gap-x-6 gap-y-2">
@@ -856,8 +856,8 @@ export default function App() {
 
           <div className="border-t border-[oklch(0.40_0.12_145)] pt-6 flex flex-col gap-3">
             <p className="text-[#c8e6c9] text-sm text-center">
-              © {new Date().getFullYear()} NutriSuccess. All rights reserved.
-              Built with love using{" "}
+              © {new Date().getFullYear()} Nutrisystem Affiliate Site. All
+              rights reserved. Built with love using{" "}
               <a
                 href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}
                 target="_blank"

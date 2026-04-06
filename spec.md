@@ -1,32 +1,30 @@
-# Nutrisystem Affiliate Page
+# Nutrisystem Affiliate Landing Page
 
 ## Current State
-New project with no existing application files. Backend is an empty Motoko actor. No frontend pages exist yet.
+Full affiliate landing page exists with:
+- Sticky header with navigation
+- Hero section with generated image
+- Benefits, How It Works, Testimonials, FAQ sections
+- CTA banner and footer
+- Affiliate URL: https://www.nutrisystem.com/diet-plans/nutrisystem-program
+- Brand name currently shows "NutriSuccess" instead of "Nutrisystem"
 
 ## Requested Changes (Diff)
 
 ### Add
-- Full landing page (single-page) at the root route
-- Hero section: bold headline + subheadline about weight loss, CTA button to affiliate link
-- Benefits section: 5 key benefits (meal delivery, balanced nutrition, weight loss results, no cooking required, dietitian support) with icons
-- How It Works section: 3 numbered steps
-- Testimonials section: 3 social proof cards with name, photo placeholder, quote, and star rating
-- FAQ section: accordion-style with 6-8 common questions about Nutrisystem
-- Footer: disclaimer noting this is an affiliate link
-- All CTA buttons open https://www.nutrisystem.com/diet-plans/nutrisystem-program in a new tab
-- Mobile-responsive layout
-- Color palette: white background, green accents (#4caf50 range), orange accents (#ff6f00 range)
+- New hero image featuring Nutrisystem meal packages/food boxes on white background
 
 ### Modify
-- None
+- Brand name in header and footer: "NutriSuccess" → "Nutrisystem"
+- Hero heading to reference Nutrisystem by name
+- Footer copyright to say "Nutrisystem"
+- Refresh hero image to show healthy food/meals on white background
 
 ### Remove
-- None
+- Nothing to remove
 
 ## Implementation Plan
-1. Build single-page React component (App.tsx) with all sections
-2. Use Tailwind CSS for layout, spacing, responsiveness
-3. Implement accordion FAQ with useState
-4. Add green/orange Tailwind color tokens
-5. All CTAs use target="_blank" rel="noopener noreferrer"
-6. No backend interaction needed -- this is a static marketing page
+1. Generate new hero image (healthy meals/food boxes on clean white background)
+2. Update App.tsx: replace all "NutriSuccess" references with "Nutrisystem"
+3. Update hero h1 and tagline copy to match Nutrisystem branding more closely
+4. Keep affiliate URL, all sections, and layout intact
